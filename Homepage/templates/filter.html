@@ -1,0 +1,37 @@
+{% extends 'navigation.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SRMspace</title>
+<body>
+
+{% load static %}
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <br>
+        <br>
+        <h2 class="text-center">Upload notes</h2>
+        <HR>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <label>Document</label>
+            <input type="file" name="document">
+            <button type="submit">Upload File</button>
+        </form>
+        {% if url %}
+        <p>
+            Uploaded file: <a href="{{url}}">{{url}}</a>
+        </p>
+        {% endif %}
+
+    </div>
+</div>
+
+
+</form>
+{% endblock %}
+</body>
+</html>
+

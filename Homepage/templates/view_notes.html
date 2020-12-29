@@ -1,0 +1,88 @@
+{% extends 'navigation.html' %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SRMspace</title>
+<body>
+
+{% load static %}
+{% block body %}
+
+<div class="container com col-sm-3">
+    <h1>View Notes</h1>
+    <br>
+    <br>
+    <form action="view_notes.html" method="GET">
+        {% csrf_token %}
+        <div class="form-group">
+            <form method="GET" enctype="multipart/form-data">
+                <label>Branch</label>
+                <select class="form-control" name="branch">
+                    <option value="null">--Select Branch--</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Mechanical Engineering">Mechanical Engineering</option>
+                    <option value="Electrical Engineering">Electrical Engineering</option>
+                    <option value="Civil Engineering">Civil Engineering</option>
+                    <option value="Electrical & Communication Engineering">Electrical & Communication Engineering
+                    </option>
+                    <option value="Aeronautical Engineering">Aeronautical Engineering</option>
+                </select>
+
+                <label>Semester</label>
+                <select class="form-control" name="Semester">
+                    <option value="null">--Select Semester--</option>
+                    <option value="First Sem">1st Semester</option>
+                    <option value="Second Sem">2nd Semester</option>
+                    <option value="Third Sem">3rd Semester</option>
+                    <option value="Fourth Sem">4th Semester</option>
+                    <option value="Fifth Sem">5th Semester</option>
+                    <option value="Sixth Sem">6th Semester</option>
+                    <option value="Seventh Sem">7th Semester</option>
+                    <option value="Eighth Sem">8th Semester</option>
+                </select>
+
+                <label>Subject</label>
+                <input type="text" class="form-control" name="subject">
+
+                <!--            <label>Notes File</label>-->
+                <!--            <input type="file" class="form-control" name="notesfile">-->
+
+                <input type="submit" class="btn btn-secondary mt-2" value="Submit">
+            </form>
+        </div>
+    </form>
+</div>
+
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Branch</th>
+        <th>Semester</th>
+        <th>Subject</th>
+        <th>Description</th>
+        <th>Link to Download</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    {% for notes in notes %}
+    <tr>
+        <td> {{ notes.title }}</td>
+        <td> {{ notes.branch }}</td>
+        <td> {{ notes.semester }}</td>
+        <td> {{notes.subject}}</td>
+        <td> {{ notes.description }}</td>
+        <td><a href="{{ notes.file_type.url }}" class="btn btn-primary btn-sm" target="_blank">Download PDF</a></td>
+
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
+
+</body>
+</html>

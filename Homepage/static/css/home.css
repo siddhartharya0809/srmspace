@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    background-color: #000000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: brown; */
+}
+
+/* header li#logo{
+    width: 10%;
+    padding: 0px;
+    cursor: pointer;
+    display: none;
+} */
+
+
+/*------------------ ALL ABOUT HEADER--------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+/*-------------- IMAGE LOGO --------------*/
+header img{
+    width: 80px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/*-------------- SEACRH & CONTACT ----------*/
+header nav ul li, header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*--------------- SEARCH BAR ---------------*/
+header nav ul li input{
+    width: 550px;
+    background-color: black;
+    border-style: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+}
+
+/*-------------- CONTACT ---------------*/
+header ul li p{
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+
+/* header ul li span i{
+    margin-left: -25px;
+    color: white;
+} */
+
+
+
+
+/*----------------- RESPONSIVE TOGGLE BUTTON ------------*/
+header #icon{
+    float: right;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*=======================SECTION STARTED====================*/
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+section img{
+    width: 35%;
+}
+
+section div.b2{
+    line-height: 40px;
+    font-size: 140%;
+}
+
+section div.b2 button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background: #4C46B6;
+    cursor: pointer;
+    margin-top: 15px;
+    outline: none;
+    text-decoration: none;
+ 
+}
+
+
+/*============================ NOTIFY ===========================*/
+
+
+div.notify div{
+    float: left;
+    width: 350px;
+    /* height: 300px; */
+    margin-top: -50px;  /*Change*/
+    font-family: 'Roboto', sans-serif;
+    /* background-color: indigo; */
+}
+
+div.notify div p.comment-of-notify{
+    float: right;
+    background: #B468FF;
+    width: 230px;
+    height: 60px;   /*Change*/
+    padding: 10px 10px 10px 20px;
+    border-radius: 0px 15px 15px 15px;  /*Change*/
+    text-align: left;   /*Change*/
+    margin-top: 20px;
+}
+div.notify div img.notify-pic{
+    width: 120px;   /*Change*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* FULL RESPONSIVE LAYOUT ****************/
+@media (max-width: 909px){
+
+    /*---------- TO SHOW TOGGLE BUTTON --------*/
+    header #icon{
+        display: block;
+    }
+    /*------------- Search bar length ------------*/
+    header nav ul li input{
+        width: 350px;
+    }
+
+    /*------ SETTLE SEARCH BAR IN BELOW HEADER ------*/
+    header nav ul{
+        position: fixed;
+        width: 100%;
+        /* height: 100vh; */
+        /* background: red; */
+        top: 70px;
+        left: -100%;
+        text-align: center;
+
+        transition: all .5s;
+    }
+
+    /* TO SHOW THE SEARCH BAR FROM LEFT TO RIGHT */
+    header ul.show{
+        left: 0;
+    }
+
+    /* TO PUT CONTACT BELOW HEADER */
+    header ul.cta{
+        position: fixed;
+        width: 100%;
+        /* background: red; */
+        top: 100px;
+        right: -100%;
+        text-align: center;
+
+        transition: all .5s;
+
+    }
+
+    /* TO SHOW THE CONTACT FROM RIGHT TO LEFT */
+    header ul.textShow{
+        right: 0;
+    }
+
+
+    /*=======================SECTION STARTED====================*/
+
+    section{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    section img{
+        width: 70%;
+    }
+
+    section div.b2{
+        line-height: 30px;
+        font-size: 100%;
+    }
+
+    section div {
+        text-align: center;
+        margin-right: 60px;
+    }
+
+
+
+
+    /*============================ NOTIFY ===================*/
+    div.notify div{
+        margin: 100px auto 0px auto;
+    }
+
+
+}
+
+
+
+
+/* section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+section img{
+    width: 40%;
+}
+
+section div.b2{
+    line-height: 40px;
+    font-size: 140%;
+}
+
+section div.b2 button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background: #4C46B6;
+    cursor: pointer;
+    margin-top: 15px;
+    outline: none;
+ 
+} */

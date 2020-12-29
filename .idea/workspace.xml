@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69abea46-623d-4e97-a2be-bd1bbccf771c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/templates/view_notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/templates/view_notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kpfKdPRBeUfTwKkuT3X0KLkuMF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Siddharth\srmspace\Homepage\static\image" />
+      <recent name="C:\Users\Siddharth\srmspace\Homepage\templates\image" />
+      <recent name="C:\Users\Siddharth\srmspace\Homepage\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="srmspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69abea46-623d-4e97-a2be-bd1bbccf771c" name="Default Changelist" comment="" />
+      <created>1606402390288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606402390288</updated>
+      <workItem from="1607005409997" duration="3465000" />
+      <workItem from="1607013382360" duration="323000" />
+      <workItem from="1607145783021" duration="2611000" />
+      <workItem from="1607177666932" duration="4174000" />
+      <workItem from="1607222794773" duration="2776000" />
+      <workItem from="1607235478423" duration="1449000" />
+      <workItem from="1607353818935" duration="7875000" />
+      <workItem from="1607437018770" duration="600000" />
+      <workItem from="1607607954861" duration="737000" />
+      <workItem from="1607616730498" duration="2892000" />
+      <workItem from="1607786637422" duration="1121000" />
+      <workItem from="1608031947602" duration="3439000" />
+      <workItem from="1608094405379" duration="5531000" />
+      <workItem from="1608100241603" duration="2868000" />
+      <workItem from="1608194620827" duration="399000" />
+      <workItem from="1608397265491" duration="1110000" />
+      <workItem from="1608445291752" duration="9151000" />
+      <workItem from="1608536956632" duration="28000" />
+      <workItem from="1608559676507" duration="2766000" />
+      <workItem from="1608614024253" duration="12634000" />
+      <workItem from="1608639321877" duration="1663000" />
+      <workItem from="1608644352093" duration="2706000" />
+      <workItem from="1608650001465" duration="2402000" />
+      <workItem from="1608701656046" duration="597000" />
+      <workItem from="1608712055096" duration="313000" />
+      <workItem from="1608712421493" duration="1533000" />
+      <workItem from="1608733600921" duration="4435000" />
+      <workItem from="1608786938684" duration="640000" />
+      <workItem from="1608793774052" duration="6930000" />
+      <workItem from="1608879311715" duration="1291000" />
+      <workItem from="1608900015310" duration="5161000" />
+      <workItem from="1608917064985" duration="358000" />
+      <workItem from="1608982554544" duration="1147000" />
+      <workItem from="1608997389608" duration="2081000" />
+      <workItem from="1609047423740" duration="1792000" />
+      <workItem from="1609081071637" duration="2813000" />
+      <workItem from="1609247935554" duration="773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
